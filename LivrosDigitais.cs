@@ -1,4 +1,4 @@
-public class LivrosDigitais : Livros
+public class LivroDigital : Livro
 {
 	public string FormatoArquivo;
 }
