@@ -5,8 +5,14 @@ public class Livro
 	public int isbn;
 	private int estoque;
 	
-	public void AdicionarEstoque(int quantidade, int et)
+	public void AdicionarEstoque(int quantidade)
 	{
-		estoque = quantidade;
-		;
+		quantidade = estoque;
+		quantidade = quantidade + 1;
 	}
+	public int getEstoque(int quantidade)
+	{
+		quantidade = estoque;
+		return quantidade;
+	}
+}

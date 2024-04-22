@@ -1,4 +1,6 @@
 public class LivroDigital : Livro
 {
-	public string FormatoArquivo;
+	
+	public string formatoArquivoPDF = "PDF";
+	public string formatoArquivoEPub = "ePub";
 }
